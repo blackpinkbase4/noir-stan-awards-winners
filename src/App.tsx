@@ -168,7 +168,7 @@ export default function App() {
       {/* Main Content Area Sitting Directly on the Red Carpet */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 space-y-6 w-full">
         {/* Top Broadcast Bar (Clean Floating, No Grey Card Box) */}
-        <header className="flex flex-col sm:flex-row items-center justify-between border-b border-amber-400/30 pb-4 gap-4">
+        <header className="flex flex-col sm:flex-row items-start sm:items-center justify-between border-b border-amber-400/30 pb-4 gap-4">
           <div className="flex items-center gap-3">
             <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-amber-400 via-rose-500 to-amber-600 p-0.5 shadow-vma-gold shrink-0">
               <div className="w-full h-full bg-black rounded-[14px] flex items-center justify-center text-amber-300">
@@ -179,9 +179,14 @@ export default function App() {
               <span className="font-heading font-black text-2xl sm:text-3xl tracking-tight uppercase text-white block leading-none drop-shadow-[0_2px_10px_rgba(0,0,0,1)]">
                 NOIR STAN AWARDS <span className="text-vma-gold">'26</span>
               </span>
-              <span className="text-[10px] sm:text-xs text-amber-300/90 font-mono tracking-wider font-semibold block mt-1 drop-shadow">
-                ★ {totalVotesCount.toLocaleString()} AUDITED VOTES CAST
-              </span>
+              <div className="flex items-center gap-2 mt-1.5">
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-black/80 border border-amber-400/50 backdrop-blur-md shadow-md">
+                  <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+                  <span className="text-[10px] sm:text-xs font-mono uppercase tracking-wider text-chrome-200">
+                    Total Votes: <strong className="text-amber-400 font-bold">{totalVotesCount.toLocaleString()}</strong>
+                  </span>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -385,14 +390,6 @@ export default function App() {
           </a>
         </div>
       </footer>
-
-      {/* Pinned Bottom-Left Corner: Total Verified Votes Pill */}
-      <div className="fixed bottom-12 sm:bottom-6 left-3 sm:left-6 z-40 flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/85 border border-amber-400/40 backdrop-blur-md shadow-2xl">
-        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-        <span className="text-[10px] sm:text-xs font-mono uppercase tracking-wider text-chrome-300">
-          Total Votes: <strong className="text-amber-400 font-bold">{totalVotesCount.toLocaleString()}</strong>
-        </span>
-      </div>
 
       {/* Floating Live Reaction Emojis & Live Chat Drawer (Active in all modes) */}
       <LiveChatReactions
