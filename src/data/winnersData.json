@@ -1,0 +1,2066 @@
+[
+  {
+    "category_id": "best-fanbase",
+    "category_title": "Best Fanbase Account",
+    "total_votes": 3106,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792229360249_cj55i",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229360249_cj55i.jpg",
+        "votes": 1619,
+        "percentage": 52.1,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792226682691_89xev",
+        "x_username": "pinknoir_4",
+        "display_name": ".",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226682691_89xev.jpg",
+        "votes": 213,
+        "percentage": 6.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226589202_anegk",
+        "x_username": "salenerrx",
+        "display_name": "hankk",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226589202_anegk.jpg",
+        "votes": 169,
+        "percentage": 5.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792311743803_zy90o",
+        "x_username": "baelucky7",
+        "display_name": "Baelucky7",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792311743803_zy90o.png",
+        "votes": 157,
+        "percentage": 5.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792235586942_gt15n",
+        "x_username": "worldwidejnk",
+        "display_name": "Worldwide JENNIE",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792235586942_gt15n.jpg",
+        "votes": 150,
+        "percentage": 4.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792242904042_5u2xj",
+        "x_username": "yadomishere",
+        "display_name": "Yadom",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792242626751_b99s2.png",
+        "votes": 149,
+        "percentage": 4.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226927017_j247w",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226927017_j247w.png",
+        "votes": 102,
+        "percentage": 3.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792313175225_saftn",
+        "x_username": "diva4bp",
+        "display_name": "👑 👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792313175225_saftn.jpg",
+        "votes": 86,
+        "percentage": 2.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317043468_gsjbi",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317043468_gsjbi.jpg",
+        "votes": 80,
+        "percentage": 2.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249883896_8ycfb",
+        "x_username": "aleepinkskz",
+        "display_name": "ale",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792249883896_8ycfb.jpg",
+        "votes": 71,
+        "percentage": 2.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792263845716_81xgx",
+        "x_username": "idleis6",
+        "display_name": "idleis6",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792263845716_81xgx.jpg",
+        "votes": 59,
+        "percentage": 1.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792319432468_ocuby",
+        "x_username": "evanwonmax",
+        "display_name": "Divya",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792319432468_ocuby.jpg",
+        "votes": 56,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249386640_pdadc",
+        "x_username": "blinkeux_",
+        "display_name": "Blinkeux_",
+        "avatar_url": null,
+        "votes": 52,
+        "percentage": 1.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792266459891_hcz4g",
+        "x_username": "amouredenini",
+        "display_name": "gwin",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792266459891_hcz4g.jpg",
+        "votes": 49,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308272307_14vfc",
+        "x_username": "grimreeper193",
+        "display_name": "Jisoo's defined abs",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308272307_14vfc.jpg",
+        "votes": 43,
+        "percentage": 1.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792319684758_725dc",
+        "x_username": "teddy_bears_29",
+        "display_name": "JISOO'S Beloved Teddy Bear🧸",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792319684758_725dc.jpg",
+        "votes": 39,
+        "percentage": 1.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792310587552_6rd08",
+        "x_username": "bp4youu",
+        "display_name": "b4youu",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792310587552_6rd08.jpg",
+        "votes": 12,
+        "percentage": 0.4,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792229360249_cj55i",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229360249_cj55i.jpg",
+        "votes": 1619,
+        "percentage": 52.1,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-update",
+    "category_title": "Best Update Account",
+    "total_votes": 1385,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792226803501_vi7i2",
+        "x_username": "nouralldin11",
+        "display_name": "RYON",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226803501_vi7i2.jpg",
+        "votes": 581,
+        "percentage": 41.9,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792242966473_01use",
+        "x_username": "yadomishere",
+        "display_name": "Yadom",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792242966473_01use.jpg",
+        "votes": 210,
+        "percentage": 15.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792277393600_oyzvx",
+        "x_username": "lisascenter",
+        "display_name": "LISA CENTER",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792277393600_oyzvx.jpg",
+        "votes": 192,
+        "percentage": 13.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792276811083_1chho",
+        "x_username": "bpspotify_chart",
+        "display_name": "BLACKPINK spotify charts",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792276811083_1chho.png",
+        "votes": 154,
+        "percentage": 11.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317104556_fms03",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317104556_fms03.jpg",
+        "votes": 130,
+        "percentage": 9.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317779974_j121n",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317779974_j121n.jpg",
+        "votes": 77,
+        "percentage": 5.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792263901637_oewip",
+        "x_username": "idleis6",
+        "display_name": "idleis6",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792263901637_oewip.jpg",
+        "votes": 41,
+        "percentage": 3,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792226803501_vi7i2",
+        "x_username": "nouralldin11",
+        "display_name": "RYON",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226803501_vi7i2.jpg",
+        "votes": 581,
+        "percentage": 41.9,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-voting-streaming",
+    "category_title": "Best Voting & Streaming Account",
+    "total_votes": 830,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792317124691_ywsh6",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317124691_ywsh6.jpg",
+        "votes": 260,
+        "percentage": 31.3,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792235635751_uyp6b",
+        "x_username": "worldwidejnk",
+        "display_name": "Worldwide JENNIE",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792235635751_uyp6b.jpg",
+        "votes": 219,
+        "percentage": 26.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792242755570_54f71",
+        "x_username": "yadomishere",
+        "display_name": "Yadom",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792242626751_b99s2.png",
+        "votes": 190,
+        "percentage": 22.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226997550_bqfme",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226997550_bqfme.png",
+        "votes": 140,
+        "percentage": 16.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792263937836_ytih8",
+        "x_username": "idleis6",
+        "display_name": "idleis6",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792263937836_ytih8.jpg",
+        "votes": 21,
+        "percentage": 2.5,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792317124691_ywsh6",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317124691_ywsh6.jpg",
+        "votes": 260,
+        "percentage": 31.3,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-charts",
+    "category_title": "Best Charts Account",
+    "total_votes": 541,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792256711633_qeblx",
+        "x_username": "bpspotify_chart",
+        "display_name": "BLACKPINK SPOTIFY CHARTS",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792256711633_qeblx.png",
+        "votes": 351,
+        "percentage": 64.9,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792317147537_fmw5q",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317147537_fmw5q.jpg",
+        "votes": 190,
+        "percentage": 35.1,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792256711633_qeblx",
+        "x_username": "bpspotify_chart",
+        "display_name": "BLACKPINK SPOTIFY CHARTS",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792256711633_qeblx.png",
+        "votes": 351,
+        "percentage": 64.9,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-graphics-designer",
+    "category_title": "Best Graphics Designer",
+    "total_votes": 1021,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792228583980_g8qvp",
+        "x_username": "kairoovv",
+        "display_name": "Kai",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228583980_g8qvp.jpg",
+        "votes": 651,
+        "percentage": 63.8,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792317166886_rcsl2",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317166886_rcsl2.jpg",
+        "votes": 195,
+        "percentage": 19.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249984865_1dm7j",
+        "x_username": "aleepinkskz",
+        "display_name": "ale",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792249984865_1dm7j.jpg",
+        "votes": 93,
+        "percentage": 9.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792312161330_edgki",
+        "x_username": "rumin_official",
+        "display_name": "RUMIN",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792312161330_edgki.jpg",
+        "votes": 82,
+        "percentage": 8,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792228583980_g8qvp",
+        "x_username": "kairoovv",
+        "display_name": "Kai",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228583980_g8qvp.jpg",
+        "votes": 651,
+        "percentage": 63.8,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-video-editor",
+    "category_title": "Best Video Editor",
+    "total_votes": 1071,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792228615581_3ij3o",
+        "x_username": "kairoovv",
+        "display_name": "Kai",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228615581_3ij3o.jpg",
+        "votes": 586,
+        "percentage": 54.7,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792312332677_6m8ba",
+        "x_username": "salenerrx",
+        "display_name": "Hankk",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792312332677_6m8ba.jpg",
+        "votes": 191,
+        "percentage": 17.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308355627_3ssy2",
+        "x_username": "pinksourey",
+        "display_name": "reputation",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308355627_3ssy2.jpg",
+        "votes": 174,
+        "percentage": 16.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250045312_t20o0",
+        "x_username": "aleepinkskz",
+        "display_name": "ale",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250045312_t20o0.jpg",
+        "votes": 120,
+        "percentage": 11.2,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792228615581_3ij3o",
+        "x_username": "kairoovv",
+        "display_name": "Kai",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228615581_3ij3o.jpg",
+        "votes": 586,
+        "percentage": 54.7,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "funniest-stan",
+    "category_title": "Funniest Stan Account",
+    "total_votes": 2849,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792229283667_qb21s",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229283667_qb21s.jpg",
+        "votes": 1535,
+        "percentage": 53.9,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792231860715_xy0j8",
+        "x_username": "nouralldin11",
+        "display_name": "RYON",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231860715_xy0j8.jpg",
+        "votes": 364,
+        "percentage": 12.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792311369694_jduds",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792311369694_jduds.jpg",
+        "votes": 187,
+        "percentage": 6.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226975695_92ezr",
+        "x_username": "prim_rosepink",
+        "display_name": "rima",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226975695_92ezr.jpg",
+        "votes": 109,
+        "percentage": 3.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231092116_iopf7",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231092116_iopf7.png",
+        "votes": 80,
+        "percentage": 2.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792227208653_c8uec",
+        "x_username": "pinknoir_4",
+        "display_name": ".",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792227208653_c8uec.jpg",
+        "votes": 72,
+        "percentage": 2.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792242626751_b99s2",
+        "x_username": "yadomishere",
+        "display_name": "Yadom!",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792242626751_b99s2.png",
+        "votes": 71,
+        "percentage": 2.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250017835_vph6i",
+        "x_username": "aleepinkskz",
+        "display_name": "ale",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250017835_vph6i.jpg",
+        "votes": 62,
+        "percentage": 2.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792256456963_45fta",
+        "x_username": "ahyace_bm",
+        "display_name": ".",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792256456963_45fta.jpg",
+        "votes": 61,
+        "percentage": 2.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792233770092_feyyk",
+        "x_username": "wokepinks",
+        "display_name": "VOCALSÉ",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792233770092_feyyk.jpg",
+        "votes": 57,
+        "percentage": 2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250874648_cy6fl",
+        "x_username": "earthquakejisoo",
+        "display_name": "JP",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250874648_cy6fl.jpg",
+        "votes": 56,
+        "percentage": 2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792243623812_gukh2",
+        "x_username": "keonxshi",
+        "display_name": "Rosii",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792243623812_gukh2.jpg",
+        "votes": 52,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792228848747_otf78",
+        "x_username": "jaynewuser",
+        "display_name": "睿 | jay 🎃",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228848747_otf78.jpg",
+        "votes": 35,
+        "percentage": 1.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308321122_vlups",
+        "x_username": "grimreeper193",
+        "display_name": "Jisoo's defined abs",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308321122_vlups.jpg",
+        "votes": 35,
+        "percentage": 1.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792321683588_als5w",
+        "x_username": "ariprivilege",
+        "display_name": "do'in 𐙚",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792321683588_als5w.png",
+        "votes": 22,
+        "percentage": 0.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792313241290_uzr4p",
+        "x_username": "diva4bp",
+        "display_name": "👑👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792313241290_uzr4p.jpg",
+        "votes": 19,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792247712001_v7710",
+        "x_username": "allboutnova",
+        "display_name": "nova",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247712001_v7710.jpg",
+        "votes": 18,
+        "percentage": 0.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249099001_g7pi9",
+        "x_username": "coneyconeycone",
+        "display_name": "Coney",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792249099001_g7pi9.jpg",
+        "votes": 12,
+        "percentage": 0.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792263867637_bgnaa",
+        "x_username": "idleis6",
+        "display_name": "idleis6",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792263867637_bgnaa.jpg",
+        "votes": 2,
+        "percentage": 0.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231890543_68xha",
+        "x_username": "spicepisc",
+        "display_name": "•gabriela🎀♡•",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231890543_68xha.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792229283667_qb21s",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229283667_qb21s.jpg",
+        "votes": 1535,
+        "percentage": 53.9,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-new-account",
+    "category_title": "Best New Account",
+    "total_votes": 2230,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792226723482_q2qdp",
+        "x_username": "diva4bp",
+        "display_name": "👑 👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226723482_q2qdp.jpg",
+        "votes": 1306,
+        "percentage": 58.6,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792229973207_5qcxz",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229973207_5qcxz.jpg",
+        "votes": 155,
+        "percentage": 7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226958698_v0kc7",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226958698_v0kc7.png",
+        "votes": 112,
+        "percentage": 5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792247680970_77mw0",
+        "x_username": "adanoiree",
+        "display_name": "Ada",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247680970_77mw0.jpg",
+        "votes": 109,
+        "percentage": 4.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792243548752_bkrfq",
+        "x_username": "keonxshi",
+        "display_name": "Rosii",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792243548752_bkrfq.jpg",
+        "votes": 84,
+        "percentage": 3.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308361752_edrik",
+        "x_username": "grimreeper193",
+        "display_name": "Jisoo's defined abs",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308361752_edrik.jpg",
+        "votes": 45,
+        "percentage": 2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792322308663_m0y48",
+        "x_username": "dominantinageci",
+        "display_name": "domi",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792322308663_m0y48.jpg",
+        "votes": 41,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792234435878_fxgrt",
+        "x_username": "joyfulwhimsical",
+        "display_name": "ʚ Evil Sparkle loves newjeans ɞ ◌ 🪽",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792234435878_fxgrt.jpg",
+        "votes": 40,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792316221333_3wmit",
+        "x_username": "hikaru_kirinox",
+        "display_name": "HIKARU KIRINO 🇲🇾🇵🇸",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792316221333_3wmit.jpg",
+        "votes": 40,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229399049_e72pv",
+        "x_username": "kissedby_jk",
+        "display_name": "Pop Base",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229399049_e72pv.jpg",
+        "votes": 39,
+        "percentage": 1.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317489388_uylw7",
+        "x_username": "evansyiem97998",
+        "display_name": "Melo",
+        "avatar_url": null,
+        "votes": 30,
+        "percentage": 1.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792312210539_bpqgo",
+        "x_username": "canny7tsh",
+        "display_name": "Ann",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792312210539_bpqgo.jpg",
+        "votes": 30,
+        "percentage": 1.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792237617270_2xu3o",
+        "x_username": "tom_theshowboy",
+        "display_name": "swiftblinkie 💛",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792237617270_2xu3o.jpg",
+        "votes": 29,
+        "percentage": 1.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792319732029_doje9",
+        "x_username": "jentleggyu",
+        "display_name": "saj ꨄ︎",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792319732029_doje9.jpg",
+        "votes": 21,
+        "percentage": 0.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792235687090_jdras",
+        "x_username": "pinksband_4",
+        "display_name": "pinkchofsalt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792235687090_jdras.jpg",
+        "votes": 20,
+        "percentage": 0.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792311569862_y6bzm",
+        "x_username": "imakeitlemonade",
+        "display_name": "dont kiss n tell💋",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792311569862_y6bzm.jpg",
+        "votes": 16,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792318233515_iwt9i",
+        "x_username": "pinks_eraa",
+        "display_name": "BLACKPINK_forever",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792318233515_iwt9i.jpg",
+        "votes": 15,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317739637_9a4co",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317739637_9a4co.jpg",
+        "votes": 13,
+        "percentage": 0.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792307043472_jl5tm",
+        "x_username": "blinksworld_0",
+        "display_name": "kosta",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792307043472_jl5tm.jpg",
+        "votes": 13,
+        "percentage": 0.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229269434_yvz7t",
+        "x_username": "wang_ata80230",
+        "display_name": "🍭",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229269434_yvz7t.jpg",
+        "votes": 12,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792230782640_vitxk",
+        "x_username": "smithyon",
+        "display_name": "Smithy",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230782640_vitxk.jpg",
+        "votes": 11,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231839648_azl4n",
+        "x_username": "spicepisc",
+        "display_name": "•gabriela🎀♡•",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231839648_azl4n.jpg",
+        "votes": 11,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792246347594_fhj30",
+        "x_username": "pinkbarca",
+        "display_name": "manal 🇪🇸",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792246347594_fhj30.jpg",
+        "votes": 10,
+        "percentage": 0.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792319608950_qffpz",
+        "x_username": "teddy_bears_29",
+        "display_name": "JISOO'S Beloved Teddy Bear🧸",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792319608950_qffpz.jpg",
+        "votes": 10,
+        "percentage": 0.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792316885443_h59cg",
+        "x_username": "mainpopgirlq",
+        "display_name": "Mainpopgirlq",
+        "avatar_url": null,
+        "votes": 10,
+        "percentage": 0.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792311980048_6i4jx",
+        "x_username": "cyberpinkeu",
+        "display_name": "Pinkeupeak",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792311980048_6i4jx.jpg",
+        "votes": 6,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792234595964_d24dx",
+        "x_username": "ttubatgyu",
+        "display_name": "nari",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792234595964_d24dx.jpg",
+        "votes": 2,
+        "percentage": 0.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232135056_cusve",
+        "x_username": "grlypet",
+        "display_name": "tyler",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232135056_cusve.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792226723482_q2qdp",
+        "x_username": "diva4bp",
+        "display_name": "👑 👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226723482_q2qdp.jpg",
+        "votes": 1306,
+        "percentage": 58.6,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "most-iconic-account",
+    "category_title": "Most Iconic Account",
+    "total_votes": 3120,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792230173780_cgfrl",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230173780_cgfrl.jpg",
+        "votes": 1535,
+        "percentage": 49.2,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792228509976_wmwiv",
+        "x_username": "kairoovv",
+        "display_name": "Kai",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228509976_wmwiv.jpg",
+        "votes": 641,
+        "percentage": 20.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792311415194_9iuyc",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792311415194_9iuyc.jpg",
+        "votes": 141,
+        "percentage": 4.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250940060_1geai",
+        "x_username": "jennierubyain",
+        "display_name": "JENNIE",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250940060_1geai.jpg",
+        "votes": 130,
+        "percentage": 4.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792321546646_3rjmx",
+        "x_username": "everpinkarea",
+        "display_name": "blinkforever",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792321546646_3rjmx.jpg",
+        "votes": 119,
+        "percentage": 3.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308419870_ko25k",
+        "x_username": "grimreeper193",
+        "display_name": "Jisoo's defined abs",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308419870_ko25k.jpg",
+        "votes": 80,
+        "percentage": 2.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792247790239_s2ddj",
+        "x_username": "adanoiree",
+        "display_name": "Ada",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247790239_s2ddj.jpg",
+        "votes": 64,
+        "percentage": 2.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226632903_1dqga",
+        "x_username": "salenerrx",
+        "display_name": "hankk",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226632903_1dqga.jpg",
+        "votes": 55,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792242798869_d8cw5",
+        "x_username": "yadomishere",
+        "display_name": "Yadom",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792242798869_d8cw5.png",
+        "votes": 52,
+        "percentage": 1.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249944937_wmnev",
+        "x_username": "aleepinkskz",
+        "display_name": "ale",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792249944937_wmnev.jpg",
+        "votes": 50,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792228843375_6mbry",
+        "x_username": "megan1slove",
+        "display_name": "CUNTSTAR4+6 #chi",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792228843375_6mbry.jpg",
+        "votes": 41,
+        "percentage": 1.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792243593760_7759e",
+        "x_username": "keonxshi",
+        "display_name": "Rosii",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792243593760_7759e.jpg",
+        "votes": 39,
+        "percentage": 1.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792266485877_2umyg",
+        "x_username": "amouredenini",
+        "display_name": "gwin",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792266485877_2umyg.jpg",
+        "votes": 30,
+        "percentage": 1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317870994_fu7pp",
+        "x_username": "maxineluvwinter",
+        "display_name": "Maxine",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317870994_fu7pp.jpg",
+        "votes": 26,
+        "percentage": 0.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226880587_9qcoj",
+        "x_username": "aripopx",
+        "display_name": "Ariana",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226880587_9qcoj.jpg",
+        "votes": 25,
+        "percentage": 0.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792247766897_ktv8s",
+        "x_username": "allboutnova",
+        "display_name": "nova",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247766897_ktv8s.jpg",
+        "votes": 23,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792307046674_eorm1",
+        "x_username": "pinknoir_4",
+        "display_name": ".",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792307046674_eorm1.jpg",
+        "votes": 23,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792236553129_6w3qk",
+        "x_username": "aerivenee_lis",
+        "display_name": "Lisa",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792236553129_6w3qk.jpg",
+        "votes": 19,
+        "percentage": 0.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317196906_l14jk",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317196906_l14jk.jpg",
+        "votes": 10,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792292106968_qcil5",
+        "x_username": "jaynewuser",
+        "display_name": "睿 | jay 🎃",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792292106968_qcil5.jpg",
+        "votes": 8,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792247075437_brgvv",
+        "x_username": "pinkscrush1",
+        "display_name": "baldsé",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247075437_brgvv.jpg",
+        "votes": 5,
+        "percentage": 0.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232190950_5wve6",
+        "x_username": "grlypet",
+        "display_name": "Tyler",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232190950_5wve6.jpg",
+        "votes": 1,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792238791777_dt8e5",
+        "x_username": "williamcxj2",
+        "display_name": "William",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792238791777_dt8e5.jpg",
+        "votes": 1,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231965814_vgcxm",
+        "x_username": "spicepisc",
+        "display_name": "•gabriela🎀♡•",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231965814_vgcxm.jpg",
+        "votes": 1,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792312771616_dwkeb",
+        "x_username": "nouralldin_11",
+        "display_name": "RYON",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792312771616_dwkeb.jpg",
+        "votes": 1,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792257145919_rmbc0",
+        "x_username": "only4ttp",
+        "display_name": "Aeri",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792257145919_rmbc0.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792263885038_3t8ma",
+        "x_username": "idleis6",
+        "display_name": "idleis6",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792263885038_3t8ma.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792318369769_yrrli",
+        "x_username": "pinks_eraa",
+        "display_name": "BLACKPINK_forever",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792318369769_yrrli.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792311834471_xjig9",
+        "x_username": "jilixslick",
+        "display_name": "Lix omega preg",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792311834471_xjig9.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792230173780_cgfrl",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230173780_cgfrl.jpg",
+        "votes": 1535,
+        "percentage": 49.2,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "peoples-choice",
+    "category_title": "People's Choice Award",
+    "total_votes": 1890,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792229689031_a3zbv",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229689031_a3zbv.jpg",
+        "votes": 1016,
+        "percentage": 53.8,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792247734560_ej5ei",
+        "x_username": "adanoiree",
+        "display_name": "Ada",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247734560_ej5ei.jpg",
+        "votes": 199,
+        "percentage": 10.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792230029183_12314",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230029183_12314.jpg",
+        "votes": 154,
+        "percentage": 8.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231000950_ik4gv",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231000950_ik4gv.png",
+        "votes": 94,
+        "percentage": 5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792243005164_281l1",
+        "x_username": "yadomishere",
+        "display_name": "Yadom!",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792243005164_281l1.png",
+        "votes": 76,
+        "percentage": 4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250758372_h8jbo",
+        "x_username": "aerisaev1",
+        "display_name": "Sofii ˚. 🍓ᵎᵎ",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250758372_h8jbo.jpg",
+        "votes": 68,
+        "percentage": 3.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226797936_lv0gc",
+        "x_username": "salenerrx",
+        "display_name": "hankk",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226797936_lv0gc.jpg",
+        "votes": 60,
+        "percentage": 3.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232550429_kgg59",
+        "x_username": "wish_notyours",
+        "display_name": "Wish",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232550429_kgg59.jpg",
+        "votes": 39,
+        "percentage": 2.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232334287_vo8nx",
+        "x_username": "joyfulwhimsical",
+        "display_name": "ʚ Evil Sparkle loves newjeans ɞ ◌ 🪽",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232334287_vo8nx.jpg",
+        "votes": 30,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792320249693_ynvx2",
+        "x_username": "2kanishk2",
+        "display_name": "KANISHK",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792320249693_ynvx2.jpg",
+        "votes": 30,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792237680421_0lcwz",
+        "x_username": "tom_theshowboy",
+        "display_name": "swiftblinkie 💛",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792237680421_0lcwz.jpg",
+        "votes": 27,
+        "percentage": 1.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792319849436_qg3jp",
+        "x_username": "jentleggyu",
+        "display_name": "saj ꨄ︎",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792319849436_qg3jp.jpg",
+        "votes": 21,
+        "percentage": 1.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317216365_a54cq",
+        "x_username": "blinksunitedtwt",
+        "display_name": "Blinks United",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317216365_a54cq.jpg",
+        "votes": 16,
+        "percentage": 0.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792292135136_j9874",
+        "x_username": "jaynewuser",
+        "display_name": "睿 | jay 🎃",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792292135136_j9874.jpg",
+        "votes": 15,
+        "percentage": 0.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308080464_hhk2b",
+        "x_username": "joalarmdulset",
+        "display_name": "bow_D_knee",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308080464_hhk2b.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792236806375_sehp1",
+        "x_username": "iaanysm",
+        "display_name": "ian",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792236806375_sehp1.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792263915745_vreel",
+        "x_username": "idleis6",
+        "display_name": "idleis6",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792263915745_vreel.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226683394_ug72s",
+        "x_username": "diva4bp",
+        "display_name": "👑 👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226683394_ug72s.jpg",
+        "votes": 5,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231987438_ce854",
+        "x_username": "spicepisc",
+        "display_name": "•gabriela🎀♡•",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231987438_ce854.jpg",
+        "votes": 5,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232145993_466fc",
+        "x_username": "grlypet",
+        "display_name": "Tyler",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232171071_7dbi1.jpg",
+        "votes": 5,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792318296113_kmq41",
+        "x_username": "pinks_eraa",
+        "display_name": "BLACKPINK_forever",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792318296113_kmq41.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792229689031_a3zbv",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229689031_a3zbv.jpg",
+        "votes": 1016,
+        "percentage": 53.8,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-khia-account",
+    "category_title": "BEST KHIA ACCOUNT",
+    "total_votes": 1852,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792230111270_vh77e",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230111270_vh77e.jpg",
+        "votes": 238,
+        "percentage": 12.9,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792255257811_et9uv",
+        "x_username": "keonnjen",
+        "display_name": "J",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792255257811_et9uv.jpg",
+        "votes": 230,
+        "percentage": 12.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232521102_u46rb",
+        "x_username": "wish_notyours",
+        "display_name": "Wish",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232521102_u46rb.jpg",
+        "votes": 167,
+        "percentage": 9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226979813_6j4vk",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226979813_6j4vk.png",
+        "votes": 128,
+        "percentage": 6.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792251040354_f1rer",
+        "x_username": "bpinyourrareaa",
+        "display_name": "Conioz",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792251040354_f1rer.jpg",
+        "votes": 120,
+        "percentage": 6.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229051337_3lb61",
+        "x_username": "adanoiree",
+        "display_name": "Ada",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229051337_3lb61.jpg",
+        "votes": 81,
+        "percentage": 4.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792253033107_941tf",
+        "x_username": "born_pink55",
+        "display_name": "Born_pink55",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792253033107_941tf.jpg",
+        "votes": 70,
+        "percentage": 3.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792230232768_d9ao7",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230232768_d9ao7.jpg",
+        "votes": 63,
+        "percentage": 3.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792243488869_el3h8",
+        "x_username": "keonxshi",
+        "display_name": "Rosii",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792243488869_el3h8.jpg",
+        "votes": 56,
+        "percentage": 3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792320731680_9wzji",
+        "x_username": "jisoodeadline",
+        "display_name": "jisoo DEADLINE 🎠🎡",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792320731680_9wzji.jpg",
+        "votes": 55,
+        "percentage": 3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250537862_eypm9",
+        "x_username": "aerisaev1",
+        "display_name": "Sofii ˚. 🍓ᵎᵎ",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250537862_eypm9.jpg",
+        "votes": 50,
+        "percentage": 2.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231570093_yptom",
+        "x_username": "pinknoir_4",
+        "display_name": ".",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231570093_yptom.jpg",
+        "votes": 47,
+        "percentage": 2.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226670717_nre8s",
+        "x_username": "salenerrx",
+        "display_name": "hankk",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226670717_nre8s.jpg",
+        "votes": 43,
+        "percentage": 2.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792243487768_1opbr",
+        "x_username": "njzfeed",
+        "display_name": "EIRA",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792243487768_1opbr.jpg",
+        "votes": 33,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317777809_ncs9n",
+        "x_username": "maxineluvwinter",
+        "display_name": "Maxine",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317777809_ncs9n.jpg",
+        "votes": 33,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792227798872_qqaq5",
+        "x_username": "rizewijrs",
+        "display_name": "fifi⁺¹ᶻ 𝗓 𐰁",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792227798872_qqaq5.jpg",
+        "votes": 33,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229899356_9nydm",
+        "x_username": "cchammakchallo",
+        "display_name": "nidz",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229899356_9nydm.jpg",
+        "votes": 31,
+        "percentage": 1.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792235813764_s9fk4",
+        "x_username": "jenniescouts",
+        "display_name": "Jennie.Scouts",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792235813764_s9fk4.jpg",
+        "votes": 30,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792247738352_lypua",
+        "x_username": "allboutnova",
+        "display_name": "nova",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792247738352_lypua.jpg",
+        "votes": 30,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232519670_lk2z4",
+        "x_username": "joyfulwhimsical",
+        "display_name": "ʚ Evil Sparkle loves newjeans ɞ ◌ 🪽",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232519670_lk2z4.jpg",
+        "votes": 29,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792234463473_i34m7",
+        "x_username": "pinkbarca",
+        "display_name": "manal 🇪🇸",
+        "avatar_url": "https://x.com/pinkbarca",
+        "votes": 26,
+        "percentage": 1.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250794507_5t7h1",
+        "x_username": "earthquakejisoo",
+        "display_name": "JP",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250794507_5t7h1.jpg",
+        "votes": 23,
+        "percentage": 1.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231939698_tc6ng",
+        "x_username": "nouralldin11",
+        "display_name": "RYON",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231939698_tc6ng.jpg",
+        "votes": 21,
+        "percentage": 1.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792319666494_uktgn",
+        "x_username": "jentleggyu",
+        "display_name": "saj ꨄ︎",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792319666494_uktgn.jpg",
+        "votes": 20,
+        "percentage": 1.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792233037714_ula3n",
+        "x_username": "dancea11night",
+        "display_name": "Mag",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792233037714_ula3n.jpg",
+        "votes": 20,
+        "percentage": 1.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792308387355_455ag",
+        "x_username": "grimreeper193",
+        "display_name": "Jisoo's defined abs",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792308387355_455ag.jpg",
+        "votes": 20,
+        "percentage": 1.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229753475_6yrn6",
+        "x_username": "sunsunkon",
+        "display_name": "aesaespaaaa",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229753475_6yrn6.jpg",
+        "votes": 19,
+        "percentage": 1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226904854_7977c",
+        "x_username": "diva4bp",
+        "display_name": "👑 👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226904854_7977c.jpg",
+        "votes": 17,
+        "percentage": 0.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792322912703_j9m2p",
+        "x_username": "killspusay",
+        "display_name": "bonnie blue",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792322912703_j9m2p.jpg",
+        "votes": 13,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232286632_vxwlu",
+        "x_username": "trippiep1nkk",
+        "display_name": "rei",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232286632_vxwlu.jpg",
+        "votes": 13,
+        "percentage": 0.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792269372642_n777k",
+        "x_username": "adoreamiraa",
+        "display_name": "amiratober",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792269372642_n777k.jpg",
+        "votes": 11,
+        "percentage": 0.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792306979312_j1yv7",
+        "x_username": "blinksworld_0",
+        "display_name": "kosta",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792306979312_j1yv7.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229221004_35nev",
+        "x_username": "wang_ata80230",
+        "display_name": "🍭",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229221004_35nev.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792257174640_fiir7",
+        "x_username": "teddy_bears_29",
+        "display_name": "JISOO'S Beloved Teddy Bear",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792257174640_fiir7.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792321835899_wfz0u",
+        "x_username": "futurejeanz",
+        "display_name": "daniel::.",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792321835899_wfz0u.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229419916_4igz6",
+        "x_username": "ariprivilege",
+        "display_name": "ariprivilege",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229419916_4igz6.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232171071_7dbi1",
+        "x_username": "grlypet",
+        "display_name": "Tyler",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232171071_7dbi1.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792235828863_3dpkm",
+        "x_username": "pinksband_4",
+        "display_name": "pinchofsalt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792235828863_3dpkm.jpg",
+        "votes": 10,
+        "percentage": 0.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792292153568_9b9ry",
+        "x_username": "jaynewuser",
+        "display_name": "睿 | jay 🎃",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792292153568_9b9ry.jpg",
+        "votes": 6,
+        "percentage": 0.3,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792230224661_m9uwj",
+        "x_username": "spycydrama",
+        "display_name": "'",
+        "avatar_url": "https://x.com/spycydrama",
+        "votes": 4,
+        "percentage": 0.2,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231722220_iw1ki",
+        "x_username": "spicepisc",
+        "display_name": "gabriela",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231722220_iw1ki.jpg",
+        "votes": 1,
+        "percentage": 0.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792312147445_5seln",
+        "x_username": "cyberpinkeu",
+        "display_name": "Pinkeupeak",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792312147445_5seln.jpg",
+        "votes": 1,
+        "percentage": 0.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792230842526_msg1u",
+        "x_username": "smithyon",
+        "display_name": "Smithy",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230842526_msg1u.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792312861819_uerwd",
+        "x_username": "nouralldin_11",
+        "display_name": "RYON",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792312861819_uerwd.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792322514951_4oyx2",
+        "x_username": "khiablink",
+        "display_name": "َ",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792322514951_4oyx2.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792229649984_dfo7y",
+        "x_username": "eternaltruluv",
+        "display_name": "Ash",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229649984_dfo7y.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249982302_0xeyh",
+        "x_username": "pinksalvat0re",
+        "display_name": "𝙍𝙖𝙚 is underarrest for loving WY is it DESERVEd",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792249982302_0xeyh.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792321174254_c3kfj",
+        "x_username": "balencibi",
+        "display_name": "Balencibi",
+        "avatar_url": null,
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792242559489_yf5s3",
+        "x_username": "warseawana",
+        "display_name": "War",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792242559489_yf5s3.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792262428197_9r6xb",
+        "x_username": "cuntyverse",
+        "display_name": "Mano",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792262428197_9r6xb.jpg",
+        "votes": 0,
+        "percentage": 0,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792230111270_vh77e",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230111270_vh77e.jpg",
+        "votes": 238,
+        "percentage": 12.9,
+        "is_winner": true
+      }
+    ]
+  },
+  {
+    "category_id": "best-bts-ender-account",
+    "category_title": "Best BTS Ender Account",
+    "total_votes": 1153,
+    "manual_winner_id": null,
+    "nominees": [
+      {
+        "nominee_id": "nom_1792320780502_zluyc",
+        "x_username": "spicevillains",
+        "display_name": "spicevillains",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792320780502_zluyc.jpg",
+        "votes": 352,
+        "percentage": 30.5,
+        "is_winner": true
+      },
+      {
+        "nominee_id": "nom_1792229910235_nupfx",
+        "x_username": "karmaster_1",
+        "display_name": "Pristine🌸✨️",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792229910235_nupfx.jpg",
+        "votes": 218,
+        "percentage": 18.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792276540692_993pj",
+        "x_username": "pinknoir_4",
+        "display_name": ".",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792276540692_993pj.jpg",
+        "votes": 148,
+        "percentage": 12.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792231036172_gagot",
+        "x_username": "watchumeanbp",
+        "display_name": "Watchumeanbp",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792231036172_gagot.png",
+        "votes": 91,
+        "percentage": 7.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792249911273_1fukz",
+        "x_username": "aleepinkskz",
+        "display_name": "ale",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792249911273_1fukz.jpg",
+        "votes": 70,
+        "percentage": 6.1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792250052781_nuih0",
+        "x_username": "keonxshi",
+        "display_name": "Rosii",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792250052781_nuih0.jpg",
+        "votes": 67,
+        "percentage": 5.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792266505462_m3sdm",
+        "x_username": "amouredenini",
+        "display_name": "gwin",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792266505462_m3sdm.jpg",
+        "votes": 52,
+        "percentage": 4.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792226743294_mes53",
+        "x_username": "diva4bp",
+        "display_name": "👑 👀",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792226743294_mes53.jpg",
+        "votes": 32,
+        "percentage": 2.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792317814289_5z6k5",
+        "x_username": "notrandomshyt",
+        "display_name": "Random Shyt",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792317814289_5z6k5.jpg",
+        "votes": 21,
+        "percentage": 1.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792307013376_gxuax",
+        "x_username": "blinksworld_0",
+        "display_name": "kosta",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792307013376_gxuax.jpg",
+        "votes": 20,
+        "percentage": 1.7,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792238742727_b21rx",
+        "x_username": "williamcxj2",
+        "display_name": "William",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792238742727_b21rx.jpg",
+        "votes": 18,
+        "percentage": 1.6,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792292178652_obvcd",
+        "x_username": "jaynewuser",
+        "display_name": "睿 | jay 🎃",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792292178652_obvcd.jpg",
+        "votes": 17,
+        "percentage": 1.5,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232313483_1ovfq",
+        "x_username": "trippiep1nkk",
+        "display_name": "rei",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232313483_1ovfq.jpg",
+        "votes": 16,
+        "percentage": 1.4,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792230911119_3ck0c",
+        "x_username": "smithyon",
+        "display_name": "Smithy",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792230911119_3ck0c.jpg",
+        "votes": 11,
+        "percentage": 1,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792318189026_g0x1m",
+        "x_username": "pinks_eraa",
+        "display_name": "BLACKPINK_forever",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792318189026_g0x1m.jpg",
+        "votes": 10,
+        "percentage": 0.9,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792241383670_6may4",
+        "x_username": "lisau1v",
+        "display_name": "Btsender",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792241383670_6may4.jpg",
+        "votes": 9,
+        "percentage": 0.8,
+        "is_winner": false
+      },
+      {
+        "nominee_id": "nom_1792232005717_wvh3e",
+        "x_username": "spicepisc",
+        "display_name": "•gabriela🎀♡•",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792232005717_wvh3e.jpg",
+        "votes": 1,
+        "percentage": 0.1,
+        "is_winner": false
+      }
+    ],
+    "winners": [
+      {
+        "nominee_id": "nom_1792320780502_zluyc",
+        "x_username": "spicevillains",
+        "display_name": "spicevillains",
+        "avatar_url": "https://dgfwwhvgsejhtvnrttcb.supabase.co/storage/v1/object/public/nominee-avatars/nom_1792320780502_zluyc.jpg",
+        "votes": 352,
+        "percentage": 30.5,
+        "is_winner": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #040406;
+  --foreground: #f8fafc;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Oswald', sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* Chrome metallic heading */
+.text-vma-chrome {
+  background: linear-gradient(180deg, #ffffff 0%, #cbd5e1 35%, #64748b 60%, #ffffff 85%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 2px 8px rgba(255, 255, 255, 0.4));
+}
+
+/* Gold championship metallic */
+.text-vma-gold {
+  background: linear-gradient(180deg, #fef08a 0%, #eab308 50%, #ca8a04 80%, #fef9c3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0px 2px 10px rgba(234, 179, 8, 0.4));
+}
+
+/* Custom scanline CRT effect */
+.scanlines {
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.3)
+  );
+  background-size: 100% 4px;
+}
