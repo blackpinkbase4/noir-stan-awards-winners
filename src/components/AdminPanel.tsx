@@ -79,10 +79,20 @@ export const AdminPanel: React.FC = () => {
       setIsAuthenticated(true);
       sessionStorage.setItem('noir_admin_auth', 'true');
       setPinError(false);
+      window.dispatchEvent(new CustomEvent('broadcast_ceremony_state_req', { detail: getCeremonyState() }));
     } else {
       setPinError(true);
     }
   };
+
+  // Keep all visitors worldwide synchronized to admin's current ceremony state
+  useEffect(() => {
+    if (!isAuthenticated) return;
+    const interval = setInterval(() => {
+      window.dispatchEvent(new CustomEvent('broadcast_ceremony_state_req', { detail: getCeremonyState() }));
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [isAuthenticated]);
 
   const handleSetMode = (mode: 'countdown' | 'live' | 'ended') => {
     setCeremonyMode(mode);

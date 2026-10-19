@@ -168,11 +168,56 @@ export async function generateNomineePoster(
   ctx.font = "bold 20px 'JetBrains Mono', monospace";
   ctx.fillText("OFFICIAL RED CARPET CEREMONY // NOIR STAN AWARDS '26", 70, canvas.height - 60);
 
-  // Download trigger
+  // High-Resolution Image Export (Mobile Camera Roll & Desktop Download)
+  const blob: Blob | null = await new Promise((resolve) => canvas.toBlob(resolve, 'image/png'));
+  const fileName = `NoirAwards_Rank${rank}_${nominee.x_username}.png`;
+
+  if (!blob) {
+    // Fallback to dataURL if toBlob is unavailable
+    const link = document.createElement('a');
+    link.download = fileName;
+    link.href = canvas.toDataURL('image/png');
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    return;
+  }
+
+  const file = new File([blob], fileName, { type: 'image/png' });
+
+  // 1. Mobile Native Share Sheet (iOS Safari & Android Chrome)
+  // Allows user to directly tap "Save Image" to Photos / Camera Roll
+  if (typeof navigator !== 'undefined' && navigator.canShare && navigator.canShare({ files: [file] })) {
+    try {
+      await navigator.share({
+        files: [file],
+        title: `NOIR STAN AWARDS '26 - ${nominee.display_name}`,
+        text: `Official Award Card for @${nominee.x_username} (${categoryTitle})! 🏆 #NoirStanAwards`,
+      });
+      return;
+    } catch (err: any) {
+      if (err.name === 'AbortError') {
+        // User closed the share sheet
+        return;
+      }
+    }
+  }
+
+  // 2. Standard Blob Download (Desktop / Laptops / Android fallback)
+  const blobUrl = URL.createObjectURL(blob);
   const link = document.createElement('a');
-  link.download = `NoirAwards_Rank${rank}_${nominee.x_username}.png`;
-  link.href = canvas.toDataURL('image/png');
+  link.download = fileName;
+  link.href = blobUrl;
+  link.rel = 'noopener';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+
+  // 3. Fallback for iOS webviews/browsers without Web Share API: open image in new tab to long-press save
+  const isIOS = typeof navigator !== 'undefined' && /iPad|iPhone|iPod/.test(navigator.userAgent);
+  if (isIOS) {
+    window.open(blobUrl, '_blank');
+  }
+
+  setTimeout(() => URL.revokeObjectURL(blobUrl), 30000);
 }

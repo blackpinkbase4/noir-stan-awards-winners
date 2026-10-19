@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
+import { saveCeremonyState, getCeremonyState, CeremonyState } from './premiereState';
 
 export interface ChatMessage {
   id: string;
@@ -139,6 +140,22 @@ export function broadcastEmojiReaction(emoji: string) {
   });
 }
 
+export function broadcastCeremonyState(state: CeremonyState) {
+  chatChannel?.send({
+    type: 'broadcast',
+    event: 'ceremony-state-update',
+    payload: state,
+  });
+}
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('broadcast_ceremony_state_req', (e: any) => {
+    if (e.detail) {
+      broadcastCeremonyState(e.detail);
+    }
+  });
+}
+
 // Global Supabase Realtime Channel
 export const chatChannel = typeof window !== 'undefined'
   ? supabaseChatClient.channel('noir-ceremony-live')
@@ -146,6 +163,17 @@ export const chatChannel = typeof window !== 'undefined'
 
 if (chatChannel) {
   chatChannel
+    .on('broadcast', { event: 'ceremony-state-update' }, ({ payload }) => {
+      if (payload && payload.mode) {
+        saveCeremonyState(payload, false);
+      }
+    })
+    .on('broadcast', { event: 'request-ceremony-state' }, () => {
+      if (typeof window !== 'undefined' && sessionStorage.getItem('noir_admin_auth') === 'true') {
+        const state = getCeremonyState();
+        broadcastCeremonyState(state);
+      }
+    })
     .on('broadcast', { event: 'new-message' }, ({ payload }) => {
       if (!payload || !payload.id) return;
       const banned = getBannedHandles();
@@ -183,5 +211,12 @@ if (chatChannel) {
     })
     .subscribe((status) => {
       console.log('Supabase Live Chat Connected:', status);
+      if (status === 'SUBSCRIBED') {
+        chatChannel.send({
+          type: 'broadcast',
+          event: 'request-ceremony-state',
+          payload: {},
+        });
+      }
     });
 }

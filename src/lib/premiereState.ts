@@ -33,10 +33,13 @@ export function getCeremonyState(): CeremonyState {
   };
 }
 
-export function saveCeremonyState(state: CeremonyState) {
+export function saveCeremonyState(state: CeremonyState, shouldBroadcast = true) {
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
     window.dispatchEvent(new CustomEvent('ceremony_state_changed', { detail: state }));
+    if (shouldBroadcast && typeof window !== 'undefined') {
+      window.dispatchEvent(new CustomEvent('broadcast_ceremony_state_req', { detail: state }));
+    }
   } catch {}
 }
 
