@@ -48,6 +48,9 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<'all' | 'hall-of-fame'>('all');
   const [isMusicPlaying, setIsMusicPlaying] = useState(() => songPlayer.getIsPlaying());
 
+  // Total verified votes cast across all categories
+  const totalVotesCount = results.reduce((sum, cat) => sum + (cat.total_votes || 0), 0);
+
   useEffect(() => {
     const handleSongState = () => {
       setIsMusicPlaying(songPlayer.getIsPlaying());
@@ -175,6 +178,9 @@ export default function App() {
             <div>
               <span className="font-heading font-black text-2xl sm:text-3xl tracking-tight uppercase text-white block leading-none drop-shadow-[0_2px_10px_rgba(0,0,0,1)]">
                 NOIR STAN AWARDS <span className="text-vma-gold">'26</span>
+              </span>
+              <span className="text-[10px] sm:text-xs text-amber-300/90 font-mono tracking-wider font-semibold block mt-1 drop-shadow">
+                ★ {totalVotesCount.toLocaleString()} AUDITED VOTES CAST
               </span>
             </div>
           </div>
@@ -379,6 +385,14 @@ export default function App() {
           </a>
         </div>
       </footer>
+
+      {/* Pinned Bottom-Left Corner: Total Verified Votes Pill */}
+      <div className="fixed bottom-12 sm:bottom-6 left-3 sm:left-6 z-40 flex items-center gap-2 px-3 py-1.5 rounded-full bg-black/85 border border-amber-400/40 backdrop-blur-md shadow-2xl">
+        <div className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+        <span className="text-[10px] sm:text-xs font-mono uppercase tracking-wider text-chrome-300">
+          Total Votes: <strong className="text-amber-400 font-bold">{totalVotesCount.toLocaleString()}</strong>
+        </span>
+      </div>
 
       {/* Floating Live Reaction Emojis & Live Chat Drawer (Active in all modes) */}
       <LiveChatReactions
