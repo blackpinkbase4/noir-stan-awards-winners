@@ -24,7 +24,7 @@ import { LivePremiereBroadcast } from './components/LivePremiereBroadcast';
 import { CountdownStage } from './components/CountdownStage';
 import { LiveChatReactions } from './components/LiveChatReactions';
 import { AdminPanel } from './components/AdminPanel';
-import { getCeremonyState, setCeremonyMode, CeremonyState } from './lib/premiereState';
+import { getCeremonyState, setCeremonyMode, fetchRemoteCeremonyState, CeremonyState } from './lib/premiereState';
 import { songPlayer } from './lib/songPlayer';
 import defaultWinnersData from './data/winnersData.json';
 
@@ -121,6 +121,11 @@ export default function App() {
   useEffect(() => {
     fetchWinners();
     triggerConfetti();
+    fetchRemoteCeremonyState().then((remote) => {
+      if (remote) {
+        setCeremony(remote);
+      }
+    });
   }, []);
 
   const handleShareCeremony = () => {

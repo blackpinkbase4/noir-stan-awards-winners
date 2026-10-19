@@ -20,6 +20,7 @@ import {
   saveCeremonyState,
   setCeremonyMode,
   setUnlockFullResults,
+  fetchRemoteCeremonyState,
   CeremonyState,
   DEFAULT_530_PM_IST
 } from '../lib/premiereState';
@@ -53,6 +54,9 @@ export const AdminPanel: React.FC = () => {
   // Sync state & ensure complete silence in Admin room
   useEffect(() => {
     songPlayer.pause();
+    fetchRemoteCeremonyState().then((remote) => {
+      if (remote) setCeremony(remote);
+    });
 
     const handleCeremonyUpdate = () => setCeremony(getCeremonyState());
     const handleChatUpdate = () => {
