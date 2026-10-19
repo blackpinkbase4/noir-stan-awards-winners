@@ -115,7 +115,7 @@ export const LiveChatReactions: React.FC<LiveChatReactionsProps> = ({ currentCat
       </div>
 
       {/* Floating Bottom Quick Reaction Bar */}
-      <div className="fixed bottom-4 right-4 sm:right-6 z-40 flex items-center gap-2">
+      <div className="fixed bottom-12 sm:bottom-6 right-3 sm:right-6 z-40 flex items-center gap-2">
         {/* Quick Reaction Emojis */}
         <div className="flex items-center gap-1.5 p-1.5 rounded-full bg-black/80 border border-amber-400/40 backdrop-blur-md shadow-2xl">
           <button
@@ -168,7 +168,7 @@ export const LiveChatReactions: React.FC<LiveChatReactionsProps> = ({ currentCat
 
       {/* Docked Live Chat Drawer */}
       {isOpen && (
-        <div className="fixed bottom-20 right-4 sm:right-6 z-50 w-[92vw] sm:w-96 max-h-[500px] flex flex-col rounded-3xl bg-black/90 border-2 border-amber-400/50 backdrop-blur-2xl shadow-2xl overflow-hidden animate-fade-in">
+        <div className="fixed bottom-28 sm:bottom-20 right-3 sm:right-6 z-50 w-[92vw] sm:w-96 max-h-[500px] flex flex-col rounded-3xl bg-black/90 border-2 border-amber-400/50 backdrop-blur-2xl shadow-2xl overflow-hidden animate-fade-in">
           {/* Chat Header */}
           <div className="p-3.5 border-b border-amber-400/25 bg-black/80 flex items-center justify-between">
             <div className="flex items-center gap-2">

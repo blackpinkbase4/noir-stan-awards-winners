@@ -216,3 +216,18 @@ body {
 .animate-scale-up {
   animation: scaleUp 0.45s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+/* Suppress Netlify badge & feedback drawer so it never overlaps UI */
+#netlify-badge,
+.netlify-badge,
+[data-netlify-badge],
+[data-netlify-deploy-id],
+div[class*="netlify-feedback"],
+div[class*="netlify-badge"],
+iframe[title*="Netlify"],
+#netlify-drawer-container {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
