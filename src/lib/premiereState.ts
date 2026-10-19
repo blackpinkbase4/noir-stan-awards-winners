@@ -77,10 +77,10 @@ export function getCeremonyState(): CeremonyState {
   } catch {}
 
   return {
-    mode: 'countdown',
+    mode: 'ended',
     countdownTarget: DEFAULT_530_PM_IST,
     currentCategoryIndex: 0,
-    unlockFullResults: false,
+    unlockFullResults: true,
   };
 }
 

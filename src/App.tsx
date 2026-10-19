@@ -269,7 +269,7 @@ export default function App() {
                ========================================================================= */
             <CountdownStage
               targetIso={ceremony.countdownTarget}
-              onCountdownComplete={() => setCeremonyMode('live')}
+              onCountdownComplete={() => {}}
             />
           ) : ceremony.mode === 'live' ? (
             /* =========================================================================

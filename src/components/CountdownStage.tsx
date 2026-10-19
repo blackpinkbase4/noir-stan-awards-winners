@@ -42,12 +42,11 @@ export const CountdownStage: React.FC<CountdownStageProps> = ({
       setTimeLeft(updated);
       if (updated.total <= 0) {
         clearInterval(interval);
-        onCountdownComplete();
       }
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [targetIso, onCountdownComplete]);
+  }, [targetIso]);
 
   const pad = (n: number) => (n < 10 ? `0${n}` : String(n));
 
