@@ -21,10 +21,9 @@ export const WinnerCard: React.FC<WinnerCardProps> = ({ category }) => {
   const runnersUp = category.nominees.filter((n) => n.nominee_id !== winner?.nominee_id).slice(0, 4);
 
   const handleShareToTwitter = () => {
-    if (!winner) return;
     const text = `🏆 OFFICIAL WINNER! Huge congratulations to @${winner.x_username} for taking home ${category.category_title} at the Noir Stan Awards '26! 🌟 #NoirStanAwards #OneTimelineEveryFandom`;
-    const url = window.location.href;
-    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
+    const shareUrl = 'https://noir-stan-awards-winners.netlify.app';
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
     window.open(twitterUrl, '_blank', 'noopener,noreferrer');
   };
 
@@ -41,7 +40,7 @@ export const WinnerCard: React.FC<WinnerCardProps> = ({ category }) => {
   };
 
   const handleCopyLink = () => {
-    const url = `${window.location.origin}#category-${category.category_id}`;
+    const url = `https://noir-stan-awards-winners.netlify.app#category-${category.category_id}`;
     navigator.clipboard.writeText(url).catch(() => {});
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);

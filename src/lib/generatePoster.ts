@@ -1,73 +1,102 @@
 import { NomineeResult } from '../types';
 
 /**
- * Generates a high-res (1080x1350) VMA award champion poster on HTML5 canvas and triggers download.
+ * Generates a high-res (1080x1350) Red Carpet Award Poster on HTML5 canvas for ANY nominee (1st, 2nd, 3rd, Finalist)
+ * and triggers immediate download to camera roll / gallery.
  */
-export async function generateWinnerPoster(categoryTitle: string, winner: NomineeResult): Promise<void> {
+export async function generateNomineePoster(
+  categoryTitle: string,
+  nominee: NomineeResult,
+  rank: number
+): Promise<void> {
   const canvas = document.createElement('canvas');
   canvas.width = 1080;
   canvas.height = 1350;
   const ctx = canvas.getContext('2d');
   if (!ctx) return;
 
-  // 1. Dark Midnight Background
+  // Color schemes based on position
+  let primaryColor = '#7bf1a8'; // default mint
+  let badgeText = `★ OFFICIAL FINALIST // RANK #${rank}`;
+  let badgeBg = '#1e293b';
+  let badgeFg = '#f8fafc';
+
+  if (rank === 1) {
+    primaryColor = '#facc15'; // Gold
+    badgeText = '👑 CROWNED WINNER // 1ST PLACE';
+    badgeBg = '#eab308';
+    badgeFg = '#050508';
+  } else if (rank === 2) {
+    primaryColor = '#e2e8f0'; // Silver
+    badgeText = '🥈 2ND PLACE // RUNNER-UP';
+    badgeBg = '#94a3b8';
+    badgeFg = '#050508';
+  } else if (rank === 3) {
+    primaryColor = '#f97316'; // Bronze
+    badgeText = '🥉 3RD PLACE // PODIUM FINALIST';
+    badgeBg = '#ea580c';
+    badgeFg = '#ffffff';
+  }
+
+  // 1. Red Carpet Stage Midnight Background
   ctx.fillStyle = '#050508';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // Gradient atmosphere
+  // Red velvet spotlight glow from bottom floor
   const bgGrad = ctx.createLinearGradient(0, 0, 0, canvas.height);
   bgGrad.addColorStop(0, '#0a0d14');
-  bgGrad.addColorStop(0.5, '#050508');
-  bgGrad.addColorStop(1, '#0e1726');
+  bgGrad.addColorStop(0.5, '#07080c');
+  bgGrad.addColorStop(0.85, '#20070b'); // velvet red undertone
+  bgGrad.addColorStop(1, '#3b0811'); // red carpet stage floor
   ctx.fillStyle = bgGrad;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // Radial glow in center
-  const radial = ctx.createRadialGradient(540, 580, 50, 540, 580, 500);
-  radial.addColorStop(0, 'rgba(123, 241, 168, 0.15)');
-  radial.addColorStop(1, 'rgba(0, 0, 0, 0)');
-  ctx.fillStyle = radial;
+  // Top spotlight cone from ceiling
+  const spotlight = ctx.createRadialGradient(540, 0, 80, 540, 500, 700);
+  spotlight.addColorStop(0, 'rgba(255, 255, 255, 0.18)');
+  spotlight.addColorStop(0.6, 'rgba(123, 241, 168, 0.05)');
+  spotlight.addColorStop(1, 'rgba(0, 0, 0, 0)');
+  ctx.fillStyle = spotlight;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-  // 2. Top Header & VMA Mint Accent Line
-  ctx.fillStyle = '#7bf1a8';
+  // 2. Top Header & Accent Line
+  ctx.fillStyle = primaryColor;
   ctx.fillRect(70, 70, canvas.width - 140, 6);
 
-  ctx.fillStyle = '#7bf1a8';
-  ctx.font = "bold 26px 'JetBrains Mono', monospace";
-  ctx.fillText("● OFFICIAL WINNERS CEREMONY // NOIR STAN AWARDS '26", 70, 120);
+  ctx.fillStyle = primaryColor;
+  ctx.font = "bold 24px 'JetBrains Mono', monospace";
+  ctx.fillText("● NOIR STAN AWARDS '26 // RED CARPET HONORS", 70, 118);
 
   // Category Title
   ctx.fillStyle = '#ffffff';
-  ctx.font = "900 56px 'Oswald', 'Syne', sans-serif";
+  ctx.font = "900 52px 'Oswald', sans-serif";
   const catText = categoryTitle.toUpperCase();
-  ctx.fillText(catText.length > 28 ? catText.substring(0, 28) + '...' : catText, 70, 195);
+  ctx.fillText(catText.length > 28 ? catText.substring(0, 28) + '...' : catText, 70, 185);
 
-  // 3. Photo Box
+  // 3. Photo Frame
   const boxX = 70;
-  const boxY = 240;
+  const boxY = 230;
   const boxW = canvas.width - 140;
   const boxH = 680;
 
-  // Draw background frame for photo
-  ctx.fillStyle = '#0b0c10';
+  // Frame background
+  ctx.fillStyle = '#0a0c12';
   ctx.fillRect(boxX, boxY, boxW, boxH);
-  ctx.strokeStyle = '#7bf1a8';
-  ctx.lineWidth = 4;
+  ctx.strokeStyle = primaryColor;
+  ctx.lineWidth = rank === 1 ? 6 : 3;
   ctx.strokeRect(boxX, boxY, boxW, boxH);
 
-  // Try loading winner avatar image
-  if (winner.avatar_url) {
+  // Load avatar image
+  if (nominee.avatar_url) {
     try {
       const img = new Image();
       img.crossOrigin = 'anonymous';
       await new Promise<void>((resolve, reject) => {
         img.onload = () => resolve();
         img.onerror = () => reject();
-        img.src = winner.avatar_url!;
+        img.src = nominee.avatar_url!;
       });
 
-      // Draw image inside box (cover aspect ratio)
       ctx.save();
       ctx.beginPath();
       ctx.rect(boxX, boxY, boxW, boxH);
@@ -79,70 +108,69 @@ export async function generateWinnerPoster(categoryTitle: string, winner: Nomine
       ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
 
       // Dark gradient overlay on photo bottom
-      const photoGrad = ctx.createLinearGradient(0, boxY + boxH - 260, 0, boxY + boxH);
+      const photoGrad = ctx.createLinearGradient(0, boxY + boxH - 240, 0, boxY + boxH);
       photoGrad.addColorStop(0, 'rgba(5, 5, 8, 0)');
-      photoGrad.addColorStop(1, 'rgba(5, 5, 8, 0.95)');
+      photoGrad.addColorStop(1, 'rgba(5, 5, 8, 0.96)');
       ctx.fillStyle = photoGrad;
       ctx.fillRect(boxX, boxY, boxW, boxH);
 
       ctx.restore();
     } catch {
-      // Fallback if image fails to render
       ctx.fillStyle = '#141824';
       ctx.fillRect(boxX, boxY, boxW, boxH);
-      ctx.fillStyle = '#7bf1a8';
+      ctx.fillStyle = primaryColor;
       ctx.font = "bold 140px 'Oswald', sans-serif";
       ctx.textAlign = 'center';
-      ctx.fillText(winner.display_name.charAt(0), canvas.width / 2, boxY + boxH / 2 + 50);
+      ctx.fillText(nominee.display_name.charAt(0), canvas.width / 2, boxY + boxH / 2 + 50);
       ctx.textAlign = 'left';
     }
   } else {
-    // Initial letter fallback
     ctx.fillStyle = '#141824';
     ctx.fillRect(boxX, boxY, boxW, boxH);
-    ctx.fillStyle = '#7bf1a8';
+    ctx.fillStyle = primaryColor;
     ctx.font = "bold 140px 'Oswald', sans-serif";
     ctx.textAlign = 'center';
-    ctx.fillText(winner.display_name.charAt(0), canvas.width / 2, boxY + boxH / 2 + 50);
+    ctx.fillText(nominee.display_name.charAt(0), canvas.width / 2, boxY + boxH / 2 + 50);
     ctx.textAlign = 'left';
   }
 
-  // 4. Gold Champion Banner Over Box Bottom
-  ctx.fillStyle = '#eab308';
-  ctx.fillRect(boxX, boxY + boxH - 60, 280, 60);
-  ctx.fillStyle = '#050508';
+  // 4. Rank Badge Ribbon Over Photo
+  ctx.fillStyle = badgeBg;
+  ctx.fillRect(boxX, boxY + boxH - 65, 380, 65);
+  ctx.fillStyle = badgeFg;
   ctx.font = "900 24px 'Oswald', sans-serif";
-  ctx.fillText("★ OFFICIAL WINNER", boxX + 24, boxY + boxH - 22);
+  ctx.fillText(badgeText, boxX + 24, boxY + boxH - 24);
 
   // 5. Bottom Details Section
-  const detailsY = boxY + boxH + 60;
+  const detailsY = boxY + boxH + 50;
 
-  // Winner Display Name
+  // Display Name
   ctx.fillStyle = '#ffffff';
-  ctx.font = "900 68px 'Oswald', 'Syne', sans-serif";
-  ctx.fillText(winner.display_name, 70, detailsY + 20);
+  ctx.font = "900 68px 'Oswald', sans-serif";
+  const nameText = nominee.display_name.length > 22 ? nominee.display_name.substring(0, 22) + '...' : nominee.display_name;
+  ctx.fillText(nameText, 70, detailsY + 25);
 
-  // Winner @Handle
-  ctx.fillStyle = '#7bf1a8';
+  // Handle
+  ctx.fillStyle = primaryColor;
   ctx.font = "bold 34px 'JetBrains Mono', monospace";
-  ctx.fillText(`@${winner.x_username}`, 70, detailsY + 75);
+  ctx.fillText(`@${nominee.x_username}`, 70, detailsY + 80);
 
   // Vote Stats
-  ctx.fillStyle = '#94a3b8';
-  ctx.font = "bold 28px 'JetBrains Mono', monospace";
-  ctx.fillText(`${winner.votes.toLocaleString()} Votes // ${winner.percentage}% of Ballot`, 70, detailsY + 125);
+  ctx.fillStyle = '#cbd5e1';
+  ctx.font = "bold 30px 'JetBrains Mono', monospace";
+  ctx.fillText(`${nominee.votes.toLocaleString()} Votes // ${nominee.percentage}% of Ballot`, 70, detailsY + 130);
 
-  // 6. Footer Watermark & Branding
+  // 6. Footer Ribbon & Red Carpet Branding
   ctx.fillStyle = 'rgba(255, 255, 255, 0.2)';
   ctx.fillRect(70, canvas.height - 110, canvas.width - 140, 2);
 
-  ctx.fillStyle = '#64748b';
+  ctx.fillStyle = '#94a3b8';
   ctx.font = "bold 20px 'JetBrains Mono', monospace";
-  ctx.fillText("ONE TIMELINE. EVERY FANDOM. // NOIR STAN AWARDS 2026", 70, canvas.height - 60);
+  ctx.fillText("OFFICIAL RED CARPET CEREMONY // NOIR STAN AWARDS '26", 70, canvas.height - 60);
 
-  // 7. Trigger Direct Download
+  // Download trigger
   const link = document.createElement('a');
-  link.download = `NoirAwards_${categoryTitle.replace(/[^a-zA-Z0-9]/g, '_')}_${winner.x_username}.png`;
+  link.download = `NoirAwards_Rank${rank}_${nominee.x_username}.png`;
   link.href = canvas.toDataURL('image/png');
   document.body.appendChild(link);
   link.click();
